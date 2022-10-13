@@ -3,7 +3,7 @@ import React from "react";
 export const Card = () => {
     return (
         <>
-        <div className="card d-inline-flex mx-4 mb-4" style={{width: "18rem"}}>
+        <div className="card d-inline-flex mx-4 mb-4 justify-content-center" style={{width: "18rem"}}>
             <img src="https://i.stack.imgur.com/mwFzF.png" className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title d-flex justify-content-center">Card title</h5>
